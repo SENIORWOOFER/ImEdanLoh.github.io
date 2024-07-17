@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/cfd2fbe593.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div id="header">
+    <div class="container">
+      <nav>
+        <img src="C:\Users\edan\Desktop\Personal-Portfolio\images\logo.png" class="logo">
+        <ul>
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="header-text">
+        <p>Student Majoring in NTU Computer Engineering</p>
+        <h1>Hi, I'm <span>Edan</span><br> from Singapore. </h1>
+      </div>
+    </div>
+  </div>
+  <!-- -----------------about----------------- -->
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="C:\Users\edan\Desktop\Personal-Portfolio\images\user_image.jpg">
+        </div>
+        <div class="about-col-2">
+          <h1 class="sub-title">About Me</h1>
+          <p>As a passionate and driven Computer Engineering student at NTU, I am dedicated to leveraging technology to solve real-world problems and enhance user's online experiences. My academic journey has equipped me with a strong foundation in software development, hardware systems, data science, and artificial intelligence, which I continually build upon through hands-on projects and coursework.
+
+            I am eager to apply my technical skills and creative problem-solving abilities in a dynamic and challenging environment. Whether through internships, collaborative projects, or research opportunities, I am committed to continuous learning and contributing to impactful technological advancements.
+            
+            Feel free to connect with me or reach out if you'd like.
+          </p>
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
+          </div>
+          <div class="tab-contents active-tab" id="skills">
+            <ul>
+              <li><span>Technical Skills</span><br>Java, Python, C, HTML, CSS, JavaScript, React, ReactNative, Microsoft Excel, Basic Accounting</li>
+              <li><span>Certifications</span><br>FPGA computing systems: Background knowledge and introductory materials (Politecnico di Milano)</li>
+              <li><span>Languages Spoken</span><br>English, Mandarin</li>
+              <li><span>Hobbies & Interests</span><br>Gym, Travelling, Music, Sports, Food & Nutrition</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="experience">
+            <ul>
+              <li><span>BrainHack 2024 TIL-AI</span><br>May 2024 - Jun 2024<br>Participated in the BrainHacks 2024 TIL-AI Hackathon, where my team and I developed an AI algorithm using ASR, NLP, and VLM to interpret spoken commands for turret operation.</li>
+              <li><span></span><br></li>
+              <li><span></span><br></li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="education">
+            <ul>
+              <li><span>Nanyang Technological University</span><br>Bachelor of Engineering (Hons), Computer Engineering<br>Aug 2022 - Jul 2025</li>
+              <li><span>Catholic Junior College</span><br>GCE A Levels<br>Jan 2018 - Nov 2019</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div id="services">
+    <div class="container">
+      <h1 class="sub-title">My Services</h1>
+      <div class="services-list">
+        <div>
+          <i class="fa-solid fa-code"></i>
+          <h2>Web Design</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna 
+            aliqua.</p>
+          <a href="#">Learn more</a>
+        </div>
+        <div>
+          <i class="fas fa-crop-alt"></i>
+          <h2>App Design</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna 
+            aliqua.</p>
+          <a href="#">Learn more</a>
+        </div>
+        <div>
+          <i class="fa-brands fa-app-store"></i>
+          <h2>Game Design</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna 
+            aliqua.</p>
+          <a href="#">Learn more</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ------------portfolio------------------ -->
+
+  <div id="portfolio">
+    <div class="container">
+      <h1 class="sub-title">My Work</h1>
+      <div class="work-list">
+        <div class="work">
+          <img src="C:\Users\edan\Desktop\Personal-Portfolio\images\fashion.jpg">
+          <div class="layer">
+            <h3>DressSense AI App</h3>
+            <p>This app leverages artificial intelligence to analyze personal style preferences and current fashion trends, 
+              providing customized outfit suggestions for any occasion. Key features include virtual wardrobe organization, 
+              real-time shopping recommendations, and seasonal style tips.</p>
+            <a href="https://github.com/SENIORWOOFER/DressSense-App"><i class="fa-solid fa-link"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="C:\Users\edan\Desktop\Personal-Portfolio\images\messenger.png">
+          <div class="layer">
+            <h3>Messenger App</h3>
+            <p>This app leverages artificial intelligence to analyze personal style preferences and current fashion trends, 
+              providing customized outfit suggestions for any occasion. Key features include virtual wardrobe organization, 
+              real-time shopping recommendations, and seasonal style tips.</p>
+            <a href="https://github.com/SENIORWOOFER/Messenger-app"><i class="fa-solid fa-link"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="C:\Users\edan\Desktop\Personal-Portfolio\images\video-games.jpg">
+          <div class="layer">
+            <h3>Mini Game</h3>
+            <p>This game leverages artificial intelligence to analyze personal style preferences and current fashion trends, 
+              providing customized outfit suggestions for any occasion. Key features include virtual wardrobe organization, 
+              real-time shopping recommendations, and seasonal style tips.</p>
+            <a href="https://github.com/SENIORWOOFER/JavaScript-Game"><i class="fa-solid fa-link"></i></a>
+          </div>
+        </div>
+      </div>
+      <a href="https://github.com/SENIORWOOFER" class="btn">See More</a>
+    </div>
+  </div>
+
+  <!-- -----------contact------------- -->
+
+  <div id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="contact-left">
+          <h1 class="sub-title">Contact Me</h1>
+          <p><i class="fa-solid fa-paper-plane"></i>edanloh28@gmail.com</p>
+          <p><i class="fa-solid fa-phone"></i>+65 8399 5441</p>
+          <div class="social-icons">
+            <a href="https://www.instagram.com/edanloh/"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/edan-loh-bb3b532a3/"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="mailto:edanloh28@gmail.com"><i class="fa-regular fa-envelope"></i></a>
+            <a href="https://x.com/bblohhh"><i class="fa-brands fa-twitter"></i></a>
+          </div>
+          <a href="C:\Users\edan\Desktop\Personal-Portfolio\images\Edan Loh Zheng Rui_CV.pdf" download class="btn btn2">Download CV</a>
+        </div>
+        <div class="contact-right">
+          <form name="submit-to-google-sheet">
+            <input type="text" name="Name" placeholder="Your Name" required>
+            <input type="email" name="Email" placeholder="Your Email" required>
+            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+            <button type="submit" class="btn btn2">Submit</button>
+          </form>
+          <span id="msg"></span>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      <p>© 2024 by Edan Loh. Proudly created with GreatStack</p>
+    </div>
+  </div>
+
+  <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+      for(tablink of tablinks){
+        tablink.classList.remove("active-link")
+      }
+      for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab")
+      }
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabname).classList.add("active-tab");
+    }
+  </script>
+
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyMOXa91WWgqbfJk6fpARrQgEzT20YAZiwl_ZosoJ6HQFr6W6GstxdaJb4ryEOa1Zwp/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+          msg.innerHTML = "Message sent successfully!"
+          setTimeout(function(){
+            msg.innerHTML = ""
+          },5000)
+          form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
