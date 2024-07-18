@@ -7,13 +7,6 @@
 
 html{
   scroll-behavior: smooth;
-  /* Hide scroll bar for Webkit browsers */
-  overflow: -moz-scrollbars-none;
-  -ms-overflow-style: none;  /* Internet Explorer 10+ */
-}
-
-html::-webkit-scrollbar {
-  display: none;  /* Safari and Chrome */
 }
 
 body{
@@ -21,6 +14,21 @@ body{
   color: #fff;
 
 }
+
+/* Subtle scrollbar styles for Webkit browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent; 
+}
+
+::-webkit-scrollbar-thumb {
+  background: #444;  /* Dark gray thumb for subtlety */
+  border-radius: 10px;
+}
+
 
 #header{
   width: 100%;
@@ -288,6 +296,7 @@ nav ul li a:hover::after{
   margin: 50px auto;
   width: fit-content;
   border: 1px solid #ff004f;
+  background-color: #080808;
   padding: 14px 50px;
   border-radius: 6px;
   text-decoration: none;
@@ -297,7 +306,10 @@ nav ul li a:hover::after{
 
 .btn:hover{
   background: #ff004f;
+  cursor: pointer;
 }
+
+
 
 /* --------contact------------- */
 
